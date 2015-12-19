@@ -1,5 +1,5 @@
-source('C:/Users/Mike/Google Drive/Frisbee/Nats/plotprep.R')
-source('C:/Users/Mike/Google Drive/Frisbee/Nats/drawfield.R')
+source('plotprep.R')
+source('drawfield.R')
 
 for (P in 1:length(PLAYERS)){
   png(paste("plots/", PLAYERS[[P]]@name, " CATCH.png", sep=""), width=2400, height=1500)

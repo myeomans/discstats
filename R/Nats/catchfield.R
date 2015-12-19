@@ -1,5 +1,5 @@
-source('C:/Users/Mike/Google Drive/Frisbee/Nats/plotprep.R')
-source('C:/Users/Mike/Google Drive/Frisbee/Nats/drawfield.R')
+source('plotprep.R')
+source('drawfield.R')
 
 for (P in 1:length(PLAYERS)){
   for (V in 1:length(VIEWS)){

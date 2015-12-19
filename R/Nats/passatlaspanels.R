@@ -1,5 +1,5 @@
-source('C:/Users/Mike/Google Drive/Frisbee/Nats/panelprep.R')
-source('C:/Users/Mike/Google Drive/Frisbee/Nats/drawatlas.R')
+source('panelprep.R')
+source('drawatlas.R')
 
 for (P in 1:length(PLAYERS)){
   png(paste("plots/", PLAYERS[[P]]@name, " PASSES.png", sep=""), width=3000, height=1400)
